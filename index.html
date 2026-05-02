@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Premium baby shower invitation website for Kritesh Rana and Divya Rana." />
+  <title>Baby Shower Invitation | Kritesh & Divya Rana</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <div class="mobile-spark" id="mobileSpark"></div>
+  <div class="drag-layer" id="dragLayer">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+  <div class="noise"></div>
+  <div class="orb orb-one"></div>
+  <div class="orb orb-two"></div>
+  <div class="orb orb-three"></div>
+
+  <div class="floating-shapes">
+    <span>♡</span>
+    <span>✦</span>
+    <span>♡</span>
+    <span>✧</span>
+    <span>♡</span>
+  </div>
+
+  <header class="hero">
+    <nav class="nav glass">
+      <a href="#" class="logo" aria-label="Kritesh and Divya Baby Shower Invitation">
+        K&nbsp;&amp;&nbsp;D
+      </a>
+
+      <div class="nav-links">
+        <a href="#details">Details</a>
+        <a href="#venue">Venue</a>
+      </div>
+    </nav>
+
+    <section class="hero-grid">
+      <div class="hero-copy reveal">
+        <span class="small-title">A celebration of love and blessings</span>
+
+        <h1>Baby Shower</h1>
+
+        <p class="couple">
+          Kritesh Rana <span>&</span> Divya Rana
+        </p>
+
+        <p class="lead">
+          You are warmly invited to join us for a graceful celebration as we welcome
+          a beautiful new chapter filled with blessings, joy, and family togetherness.
+        </p>
+
+        <div class="hero-info">
+          <div>
+            <strong>10 May 2026</strong>
+            <span>Sunday</span>
+          </div>
+          <div>
+            <strong>12:00 PM</strong>
+            <span>Lunch</span>
+          </div>
+          <div>
+            <strong>Jalipor</strong>
+            <span>Khambhat</span>
+          </div>
+        </div>
+
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#details">View Invitation</a>
+
+          <a
+            class="btn btn-outline"
+            target="_blank"
+            rel="noopener"
+            href="https://www.google.com/maps/search/?api=1&query=Chamunda%20Mataji%20ne%20vadi%2C%20Jalipor%2C%20Khambhat"
+          >
+            Open Map
+          </a>
+        </div>
+      </div>
+
+      <div class="premium-card-wrap reveal" id="tiltArea">
+        <div class="premium-card">
+          <div class="card-border"></div>
+          <div class="arch"></div>
+
+          <div class="card-mark">K&nbsp;&amp;&nbsp;D</div>
+
+          <div class="ring ring-one"></div>
+          <div class="ring ring-two"></div>
+
+          <span class="card-subtitle">Invitation</span>
+
+          <h2>Baby Shower</h2>
+
+          <div class="divider">
+            <span></span>
+          </div>
+
+          <p class="card-names">
+            Kritesh Rana<br>
+            and<br>
+            Divya Rana
+          </p>
+
+          <p class="card-date">10 May 2026</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="scroll-indicator">
+      <span></span>
+    </div>
+  </header>
+
+  <main>
+    <section id="details" class="section details">
+      <div class="section-heading reveal">
+        <span>Invitation Details</span>
+        <h2>Celebrate With Us</h2>
+      </div>
+
+      <div class="detail-grid">
+        <article class="detail-box reveal">
+          <div class="number">01</div>
+          <h3>Date</h3>
+          <p>10 / 05 / 2026</p>
+          <small>Sunday</small>
+        </article>
+
+        <article class="detail-box reveal">
+          <div class="number">02</div>
+          <h3>Lunch</h3>
+          <p>12:00 PM</p>
+          <small>Lunch starts in the afternoon</small>
+        </article>
+
+        <article class="detail-box reveal">
+          <div class="number">03</div>
+          <h3>Venue</h3>
+          <p>Chamunda Mataji ne vadi</p>
+          <small>Jalipor, Khambhat</small>
+        </article>
+      </div>
+    </section>
+
+    <section class="section countdown-card glass reveal">
+      <span class="small-title">Time remaining</span>
+      <h2>Countdown To Celebration</h2>
+
+      <div class="countdown" id="countdown">
+        <div>
+          <strong id="days">00</strong>
+          <span>Days</span>
+        </div>
+
+        <div>
+          <strong id="hours">00</strong>
+          <span>Hours</span>
+        </div>
+
+        <div>
+          <strong id="minutes">00</strong>
+          <span>Minutes</span>
+        </div>
+
+        <div>
+          <strong id="seconds">00</strong>
+          <span>Seconds</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section blessing reveal">
+      <div class="blessing-inner">
+        <span>With Your Blessings</span>
+        <h2>A New Life, A New Beginning</h2>
+
+        <p>
+          Your presence will make this occasion more meaningful and memorable.
+          Please join the Rana family for this special celebration.
+        </p>
+      </div>
+    </section>
+
+    <section class="section memory reveal">
+      <div class="memory-card glass">
+        <span class="small-title">Special Note</span>
+        <h2>Blessings Are The Best Gift</h2>
+
+        <p>
+          We request your presence and blessings on this special day as we celebrate
+          love, happiness, and the arrival of a new little blessing.
+        </p>
+      </div>
+    </section>
+
+    <section id="venue" class="section venue reveal">
+      <div>
+        <span class="small-title">Venue</span>
+        <h2>Chamunda Mataji ne vadi</h2>
+        <p>Jalipor, Khambhat</p>
+      </div>
+
+      <a
+        class="btn btn-primary"
+        target="_blank"
+        rel="noopener"
+        href="https://www.google.com/maps/search/?api=1&query=Chamunda%20Mataji%20ne%20vadi%2C%20Jalipor%2C%20Khambhat"
+      >
+        Get Directions
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Kritesh Rana and Divya Rana | Baby Shower Invitation</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
